@@ -21,4 +21,5 @@ int main()
 	mhs.shownim();
 
 	mahasiswa* pmhs = &mhs; //pointer dereference pmhs
+	pmhs->nim = 3;          //arrow operator
 }
