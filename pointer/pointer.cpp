@@ -15,4 +15,6 @@ int main()
 {
 	mahasiswa mhs{ 1 };     //object mhs
 	mhs.shownim();          //member access operator 
+
+	mahasiswa& ref = mhs;   //pointer access refMhs
 }
