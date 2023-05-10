@@ -8,5 +8,10 @@ public:
 };
 
 void mahasiswa::shownim() { //implementasi method di luar class
-	 
+	cout << "No induk = " << nim << endl;
+}
+
+int main()
+{
+	mahasiswa mhs{ 1 };     //object mhs
 }
