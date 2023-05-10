@@ -22,4 +22,7 @@ int main()
 
 	mahasiswa* pmhs = &mhs; //pointer dereference pmhs
 	pmhs->nim = 3;          //arrow operator
+	pmhs->shownim();
+	system("pause");
+	return 0;
 }
